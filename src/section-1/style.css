@@ -1,0 +1,12 @@
+.search-box-cotainer{
+display: flex;
+font-family: sans-serif;
+color: #fff;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+background-color: blue;
+background-size: cover;
+background-image: url('./Banner.png');
+height: 50%;
+}
