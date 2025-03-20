@@ -3,8 +3,8 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary px-3 w-100">
     <div className="container-fluid">
-      
-      <a className="navbar-brand fw-bold" style={{ color: "blue",fontSize: "30px" ,  fontFamily: "Poppins, sans-serif" }}>FickleFlight</a>
+    
+      <a className="navbar-brand fw-bold" style={{ color: " #27559a",fontSize: "30px" ,  fontFamily: "Poppins, sans-serif" }}>FickleFlight</a>
 
       <div className="d-flex gap-3">
         <button className="btn  mx-2">Explore</button>
