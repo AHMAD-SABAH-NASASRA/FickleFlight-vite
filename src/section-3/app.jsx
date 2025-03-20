@@ -14,10 +14,10 @@ const Section3 = () => {
          <h1>Most Popular Destinations</h1> 
         </div>
         <div className="part3"> 
-         <Card1 titel="Paris" bgImage="./img/c1img1.png" text="$699"  />
-         <Card1 titel="Greece" bgImage="./img/c1img2.png" text="$699"/>
-         <Card1 titel="Norway" bgImage="./img/c1img3.png" text="$699"/>
-         <Card1 titel="Tuscany" bgImage="./img/c1img4.png" text="$699"/>
+         <Card1 titel="Paris" bgImage="../src/section-3/img/c1img1.png" text="$699"  />
+         <Card1 titel="Greece" bgImage="../src/section-3/img/c1img2.png" text="$1079"/>
+         <Card1 titel="Norway" bgImage="../src/section-3/img/c1img3.png" text="$895"/>
+         <Card1 titel="Tuscany" bgImage="../src/section-3/img/c1img4.png" text="$1245"/>
         </div>
      </div>
     
@@ -41,7 +41,7 @@ const Section3 = () => {
          <Card3 price="$575/night" img="./img/c3img1.png" discription="Entire bungalow" title="Matterhorn Suites" Rating="4.9"/>
          <Card3 price="$360/night" img="./img/c3img2.png" discription="2-Story beachfront suite" title="Discovery Shores" Rating="4.8"/>
          <Card3 price="$420/night" img="./img/c3img3.png" discription="Single deluxe hut" title="Arctic Hut " Rating="4.7"/>
-         <Card3 price="$244/night" img=".n/img/c3img4.png" discription="Deluxe King Room" title="Lake Louise Inn" Rating="4.6"/>
+         <Card3 price="$244/night" img="./img/c3img4.png" discription="Deluxe King Room" title="Lake Louise Inn" Rating="4.6"/>
          </div>
      </div>
     
