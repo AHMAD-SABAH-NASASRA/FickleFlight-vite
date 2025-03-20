@@ -5,7 +5,7 @@ import './style.css';
     return (
     <div className='icon-mean-container'>
      
-     <div className='icon-container'>
+     <div className='icon-container'  style={{ backgroundColor: props.bgColor }}>
         <div className='icon'>   
          {props.icon }
         </div>

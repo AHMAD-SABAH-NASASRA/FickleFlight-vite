@@ -1,39 +1,22 @@
 import "./style.css"
 function Header() {
   return (
-    
-   <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">Navbar w/ text</a>
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarText" 
-          aria-controls="navbarText" 
-          aria-expanded="false" 
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-          <span className="navbar-text">
-            Navbar text with an inline element
-          </span>
-        </div>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary px-3 w-100">
+    <div className="container-fluid">
+      
+      <a className="navbar-brand fw-bold" style={{ color: "blue",fontSize: "30px" ,  fontFamily: "Poppins, sans-serif" }}>FickleFlight</a>
+
+      <div className="d-flex gap-3">
+        <button className="btn  mx-2">Explore</button>
+        <button className="btn  mx-2">Search</button>
+        <button className="btn  mx-2">Hotels</button>
+        <button className="btn  mx-2">Offers</button>
+      <i className="bi bi-bell" style={{ fontSize: "24px", cursor: "pointer" }}></i>
+      <i className="bi bi-person" style={{ fontSize: "24px", cursor: "pointer" }}></i>
       </div>
-    </nav>
+
+    </div>
+  </nav>
   );
 }
 

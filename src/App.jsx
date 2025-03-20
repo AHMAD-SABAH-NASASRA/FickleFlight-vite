@@ -3,6 +3,8 @@ import Section3 from "./section-3/app";
 import Header from "./header/app";
 import Section4 from "./section-4/app";
 import Section2 from "./section-2/app";
+import Footer from "./footer/app";
+
 function App() {
   return (
     <>
@@ -12,7 +14,7 @@ function App() {
      <Section2/>    
     <Section3/>
     <Section4/>
-    
+    <Footer/>
 
     </>
   );

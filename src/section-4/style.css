@@ -2,15 +2,20 @@
     
 display: flex;
 flex-direction: column;
-justify-content: space-around   ;
+justify-content: center  ;
 align-items: center;
-height: 45%;
+height: 25%;
 background-size: cover;
 background-image: url('./Subscribe.png');
+background-position: bottom;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .top p{
-
 color: blue;
 font-size:x-large;
-
 }

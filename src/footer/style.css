@@ -1,0 +1,42 @@
+.footer{
+    background-color: blue;
+height: 12%;
+}
+.footer-mean-container{
+
+    display: flex;
+justify-content: space-around;
+
+}
+
+.left{
+    position: relative;
+top: 30px;
+    color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.text {
+    font-size: large;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+
+
+.right{
+    
+    position: relative;
+top: 30px;
+width: 40%;
+display: flex;
+color: white;
+justify-content: space-around;
+}
+.icon3-container{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}

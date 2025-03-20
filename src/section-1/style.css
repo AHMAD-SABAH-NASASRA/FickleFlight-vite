@@ -8,5 +8,6 @@ align-items: center;
 background-color: blue;
 background-size: cover;
 background-image: url('./Banner.png');
-height: 50%;
+height: 30%;
+background-position: bottom;
 }
