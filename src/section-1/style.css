@@ -5,7 +5,7 @@ color: #fff;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-background: linear-gradient(to right, #27559a, #3b94de);
+background:  #27559a;
 background-size: cover;
 background-image: url('./Banner.png');
 height: 30%;
